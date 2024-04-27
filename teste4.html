@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão de Curtidas</title>
+
+
+<style>
+    .likes-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .imagem {
+         width: 24px;
+    }
+
+    .likes-count {
+        
+        font-size: 16px;
+        margin-left: 10px;
+    }
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+<button class="likes-button" onclick="aumentarCurtidas()">
+    <span id="curtidas" class="likes-count">0</span>
+    <img src="como.png" class="imagem">
+</button>
+
+
+
+<script>
+    var curtidasContador = 0;
+
+    function aumentarCurtidas() {
+        curtidasContador++;
+        document.getElementById("curtidas").innerText = curtidasContador;
+    }
+</script>
+
+</body>
+</html>

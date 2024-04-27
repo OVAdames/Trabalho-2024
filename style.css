@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 500px auto;
+   
+}
+
+.likes-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+.imagem {
+         width: 24px;
+    }
+
+.likes-count {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+.personagens {
+    flex: 1;
+}
+
+.ordem {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contexto {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+}
+
+.frase {
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 30px;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+
+.box4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size: 25px;
+    }
+
+.cabecalho {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 33px;
+    color: #090769;
+    text-align: center;
+    width: 1000px;
+    border: 1px solid #090769;
+}
+
+
+body {
+    background-image: linear-gradient(#39BDE7,#221FA5);
+}
+
+.ESCOLHA {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: sans casual Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 35px;
+}
